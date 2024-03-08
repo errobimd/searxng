@@ -21,7 +21,7 @@ about = {
 categories = ['it', 'repos']
 
 # search-url
-search_url = 'https://api.github.com/search/repositories?sort=stars&order=desc&{query}'
+search_url = 'https://api.github.com/search/repositories?{query}&sort=stars&order=desc&per_page=100'
 accept_header = 'application/vnd.github.preview.text-match+json'
 
 
